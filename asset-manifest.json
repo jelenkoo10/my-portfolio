@@ -1,8 +1,23 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.8ef516a8.css",
-    "main.js": "/my-portfolio/static/js/main.e1923d2f.js",
+    "main.js": "/my-portfolio/static/js/main.5fc4f21f.js",
+    "static/media/flags.jpg": "/my-portfolio/static/media/flags.cc7ad295c9cb09f4ac66.jpg",
+    "static/media/digital-card.jpg": "/my-portfolio/static/media/digital-card.a5726156670a72ea2dbe.jpg",
+    "static/media/ipaddress.JPG": "/my-portfolio/static/media/ipaddress.d35a5d292fb8ece0bff3.JPG",
+    "static/media/travel.jpg": "/my-portfolio/static/media/travel.e93cf0f1b5ce79a29fda.jpg",
+    "static/media/unit converter.jpg": "/my-portfolio/static/media/unit converter.cd3b6820fdb6341df359.jpg",
+    "static/media/hometown.jpg": "/my-portfolio/static/media/hometown.489d48e30a1d612f3512.jpg",
+    "static/media/expenses.jpg": "/my-portfolio/static/media/expenses.641c73aee99ffbeb053e.jpg",
+    "static/media/manage.jpg": "/my-portfolio/static/media/manage.58c65efa5d34b49e1e01.jpg",
+    "static/media/passwords.jpg": "/my-portfolio/static/media/passwords.e495e7824931c263a71a.jpg",
+    "static/media/calc.jpg": "/my-portfolio/static/media/calc.65bfdafd166af1f2a965.jpg",
+    "static/media/movies.jpg": "/my-portfolio/static/media/movies.b0561ca92ad6d5a68adf.jpg",
     "static/media/gsap.png": "/my-portfolio/static/media/gsap.57cd68156a5764304ead.png",
+    "static/media/url.jpg": "/my-portfolio/static/media/url.ea21d5d3c8139723b1a2.jpg",
+    "static/media/countries.jpg": "/my-portfolio/static/media/countries.56860ccc0f9fa0c70361.jpg",
+    "static/media/colors.jpg": "/my-portfolio/static/media/colors.9c3eb73cc8efa658b58b.jpg",
+    "static/media/scoreboard.jpg": "/my-portfolio/static/media/scoreboard.c46215ef553536291a0a.jpg",
     "static/media/welcome.png": "/my-portfolio/static/media/welcome.1db573bbe26a8ff20e18.png",
     "static/media/social.png": "/my-portfolio/static/media/social.1c9fe3122233c03029bb.png",
     "static/media/hello.svg": "/my-portfolio/static/media/hello.26d427f05598b51055bb4113f7621a08.svg",
@@ -16,10 +31,10 @@
     "static/media/icon-close.svg": "/my-portfolio/static/media/icon-close.85e5419b1253523d2e86.svg",
     "static/media/icon-hamburger.svg": "/my-portfolio/static/media/icon-hamburger.f5fd2a2d47682d693633.svg",
     "main.8ef516a8.css.map": "/my-portfolio/static/css/main.8ef516a8.css.map",
-    "main.e1923d2f.js.map": "/my-portfolio/static/js/main.e1923d2f.js.map"
+    "main.5fc4f21f.js.map": "/my-portfolio/static/js/main.5fc4f21f.js.map"
   },
   "entrypoints": [
     "static/css/main.8ef516a8.css",
-    "static/js/main.e1923d2f.js"
+    "static/js/main.5fc4f21f.js"
   ]
 }
