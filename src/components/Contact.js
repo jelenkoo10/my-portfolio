@@ -17,11 +17,11 @@ function Contact() {
                 <area target="_blank" alt="Copying email address" title="Email" onClick={copyAddress} coords="114,100,27" shape="circle" />
             </map>
             <div className="dot-links">
-                <a href="#home" className="dot"></a>
-                <a href="#about" className="dot"></a>
-                <a href="#projects" className="dot"></a>
-                <a href="#tech" className="dot"></a>
-                <a href="#contact" className="dot selected"></a>
+                <a aria-label="Link to home section" aria-describedby="home" href="#home" className="dot"></a>
+                <a aria-label="Link to about section" aria-describedby="about" href="#about" className="dot"></a>
+                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects" className="dot"></a>
+                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech" className="dot"></a>
+                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact" className="dot selected"></a>
             </div>
             <p>&copy;Veljko Jelenković 2022. All rights reserved.</p>
         </section>

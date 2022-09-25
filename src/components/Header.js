@@ -62,11 +62,11 @@ function Header() {
                 </div> 
             </section>
             <div className="dot-links">
-                <a href="#home" className="dot selected"></a>
-                <a href="#about" className="dot"></a>
-                <a href="#projects" className="dot"></a>
-                <a href="#tech" className="dot"></a>
-                <a href="#contact" className="dot"></a>
+                <a aria-label="Link to home section" aria-describedby="home" href="#home" className="dot selected"></a>
+                <a aria-label="Link to about section" aria-describedby="about" href="#about" className="dot"></a>
+                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects" className="dot"></a>
+                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech" className="dot"></a>
+                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact" className="dot"></a>
             </div>
          </header>
     )
