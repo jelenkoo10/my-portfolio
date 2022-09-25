@@ -73,6 +73,13 @@ function Projects() {
                 <ProjectCard key={projects[projectNum].id} project={projects[projectNum]} img={projects[projectNum].image_path} toggle={togglePhoto} />
                 <div className="slider" onClick={() => changeProject("right")}>{">"}</div>
             </div> : <ProjectGrid projects={projects} />}
+            <div className="dot-links">
+                <a href="#home" className="dot"></a>
+                <a href="#about" className="dot"></a>
+                <a href="#projects" className="dot selected"></a>
+                <a href="#tech" className="dot"></a>
+                <a href="#contact" className="dot"></a>
+            </div>
         </section>
     )
 }

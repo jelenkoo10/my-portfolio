@@ -27,6 +27,13 @@ function AboutMe() {
                     <p>Skills that he likes to highlight most are his ability to plan and organize everything before putting any effort, and his ability to solve different problems with ease. His work ethic and dedication are truly great, and he is always looking forward to learn something new on his frontend journey every single day.</p>
                 </div>
             </div>
+            <div className="dot-links">
+                <a href="#home" className="dot"></a>
+                <a href="#about" className="dot selected"></a>
+                <a href="#projects" className="dot"></a>
+                <a href="#tech" className="dot"></a>
+                <a href="#contact" className="dot"></a>
+            </div>
         </section>
     )
 }

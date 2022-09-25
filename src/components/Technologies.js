@@ -66,6 +66,13 @@ function Technologies() {
                     <h2>GSAP</h2>
                 </div>
             </div>
+            <div className="dot-links">
+                <a href="#home" className="dot"></a>
+                <a href="#about" className="dot"></a>
+                <a href="#projects" className="dot"></a>
+                <a href="#tech" className="dot selected"></a>
+                <a href="#contact" className="dot"></a>
+            </div>
         </section>
     )
 }

@@ -286,12 +286,18 @@ label, select {
 
 .project-title {
     font-size: large;
-    color: black;
 }
 
 .project-desc {
     font-size: medium;
     height: 125px;
+}
+
+.project-card:hover,
+.project-card:focus {
+    cursor: pointer;
+    background-color: #9089F9;
+    color: white;
 }
 
 .project-title,
@@ -379,6 +385,27 @@ label, select {
     color: white;
     padding: 2em;
     margin: 0;
+}
+
+/* Circle links */
+.dot-links {
+    margin: 1em auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    width: 12.5px;
+    height: 12.5px;
+    border: 1px solid #9089F9;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0 .25em;
+}
+
+.selected {
+    background-color: #9089F9;
 }
 
 /* Media queries */

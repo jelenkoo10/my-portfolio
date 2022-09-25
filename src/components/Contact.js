@@ -16,6 +16,13 @@ function Contact() {
                 <area target="_blank" alt="Map link to GitHub profile" title="GitHub" href="https://www.github.com/jelenkoo10" coords="28,143,26" shape="circle" />
                 <area target="_blank" alt="Copying email address" title="Email" onClick={copyAddress} coords="114,100,27" shape="circle" />
             </map>
+            <div className="dot-links">
+                <a href="#home" className="dot"></a>
+                <a href="#about" className="dot"></a>
+                <a href="#projects" className="dot"></a>
+                <a href="#tech" className="dot"></a>
+                <a href="#contact" className="dot selected"></a>
+            </div>
             <p>&copy;Veljko Jelenković 2022. All rights reserved.</p>
         </section>
     )

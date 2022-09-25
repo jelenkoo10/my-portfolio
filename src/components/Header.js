@@ -61,6 +61,13 @@ function Header() {
                     <button className="header-btn" ref={btnRef} onClick={() => setDisplay(true)}>Let me introduce myself</button>
                 </div> 
             </section>
+            <div className="dot-links">
+                <a href="#home" className="dot selected"></a>
+                <a href="#about" className="dot"></a>
+                <a href="#projects" className="dot"></a>
+                <a href="#tech" className="dot"></a>
+                <a href="#contact" className="dot"></a>
+            </div>
          </header>
     )
 }
