@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.8ef516a8.css",
-    "main.js": "/my-portfolio/static/js/main.5fc4f21f.js",
+    "main.css": "/my-portfolio/static/css/main.2d4fe5eb.css",
+    "main.js": "/my-portfolio/static/js/main.b0076538.js",
     "static/media/flags.jpg": "/my-portfolio/static/media/flags.cc7ad295c9cb09f4ac66.jpg",
     "static/media/digital-card.jpg": "/my-portfolio/static/media/digital-card.a5726156670a72ea2dbe.jpg",
     "static/media/ipaddress.JPG": "/my-portfolio/static/media/ipaddress.d35a5d292fb8ece0bff3.JPG",
@@ -30,11 +30,11 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/icon-close.svg": "/my-portfolio/static/media/icon-close.85e5419b1253523d2e86.svg",
     "static/media/icon-hamburger.svg": "/my-portfolio/static/media/icon-hamburger.f5fd2a2d47682d693633.svg",
-    "main.8ef516a8.css.map": "/my-portfolio/static/css/main.8ef516a8.css.map",
-    "main.5fc4f21f.js.map": "/my-portfolio/static/js/main.5fc4f21f.js.map"
+    "main.2d4fe5eb.css.map": "/my-portfolio/static/css/main.2d4fe5eb.css.map",
+    "main.b0076538.js.map": "/my-portfolio/static/js/main.b0076538.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ef516a8.css",
-    "static/js/main.5fc4f21f.js"
+    "static/css/main.2d4fe5eb.css",
+    "static/js/main.b0076538.js"
   ]
 }
