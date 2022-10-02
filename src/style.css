@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --base-color: #9089F9;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -22,10 +26,6 @@ h1 {
 a {
     text-decoration: none;
     color: white;
-}
-
-:root {
-    --base-color: #9089F9;
 }
 
 .nav {
@@ -104,7 +104,7 @@ a {
 
 .header-btn {
     display: block;
-    background-color: #9089F9;
+    background-color: var(--base-color);
     color: white;
     font-weight: bold;
     font-size: medium;
@@ -249,7 +249,7 @@ label, select {
 }
 
 #tags {
-    border: 1px solid #9089F9;
+    border: 1px solid var(--base-color);
     font-family: 'Mukta Vaani', sans-serif;
     color: #6a60fa;
 }
@@ -263,7 +263,7 @@ label, select {
 }
 
 .project-card {
-    border: 1px solid #9089F9;
+    border: 1px solid var(--base-color);
     border-radius: .5em;
     width: 270px;
     padding: 15px;
@@ -296,7 +296,7 @@ label, select {
 .project-card:hover,
 .project-card:focus {
     cursor: pointer;
-    background-color: #9089F9;
+    background-color: var(--base-color);
     color: white;
 }
 
@@ -381,7 +381,7 @@ label, select {
 }
 
 .contact p {
-    background-color: #9089F9;
+    background-color: var(--base-color);
     color: white;
     padding: 2em;
     margin: 0;
@@ -398,14 +398,14 @@ label, select {
 .dot {
     width: 12.5px;
     height: 12.5px;
-    border: 1px solid #9089F9;
+    border: 1px solid var(--base-color);
     background-color: white;
     border-radius: 100%;
     margin: 0 .25em;
 }
 
 .selected {
-    background-color: #9089F9;
+    background-color: var(--base-color);
 }
 
 /* Media queries */
@@ -456,7 +456,7 @@ label, select {
     }
 
     nav ul li, a {
-        color: #9089F9;
+        color: var(--base-color);
         display: inline;
         font-size: small;
     }
