@@ -21,7 +21,7 @@ export default [
         image_path: "/url.jpg",
         description: "This URL shortening page integrates with the shrtcode API, which is used to shorten any valid URL through a simple query.",
         link: "https://jelenkoo10.github.io/url_shortening_api/",
-        tags: ["api"]
+        tags: ["api", "ui"]
     },
     {
         id: 4,
@@ -93,7 +93,7 @@ export default [
         image_path: "/ipaddress.JPG",
         description: "A simple IP address tracker, which reveals the location and generates a map of that location based on entered IP address.",
         link: "https://jelenkoo10.github.io/ip_address_tracker/",
-        tags: ["api"]
+        tags: ["api", "ui"]
     },
     {
         id: 13,
