@@ -39,10 +39,10 @@ function Header() {
                     <nav>
                         <ul>
                             <li><a href="#home" onClick={toggleNav}>Home</a></li>
-                            <li><a href="#about" onClick={toggleNav}>About me</a></li>
-                            <li><a href="#projects" onClick={toggleNav}>Projects</a></li>
-                            <li><a href="#tech" onClick={toggleNav}>Technologies</a></li>
-                            <li><a href="#contact" onClick={toggleNav}>Contact</a></li>
+                            <li><a href="#about-section" onClick={toggleNav}>About me</a></li>
+                            <li><a href="#projects-section" onClick={toggleNav}>Projects</a></li>
+                            <li><a href="#tech-section" onClick={toggleNav}>Technologies</a></li>
+                            <li><a href="#contact-section" onClick={toggleNav}>Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -63,10 +63,10 @@ function Header() {
             </section>
             <div className="dot-links">
                 <a aria-label="Link to home section" aria-describedby="home" href="#home" className="dot selected"></a>
-                <a aria-label="Link to about section" aria-describedby="about" href="#about" className="dot"></a>
-                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects" className="dot"></a>
-                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech" className="dot"></a>
-                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact" className="dot"></a>
+                <a aria-label="Link to about section" aria-describedby="about" href="#about-section" className="dot"></a>
+                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects-section" className="dot"></a>
+                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech-section" className="dot"></a>
+                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact-section" className="dot"></a>
             </div>
          </header>
     )

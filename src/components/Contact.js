@@ -7,8 +7,8 @@ function Contact() {
     }
 
     return (
-        <section className="contact" id="contact">
-            <h1>Contact me</h1>
+        <section className="contact" id="contact-section" aria-labelledby="contact">
+            <h1 id="contact">Contact me</h1>
             <img src={require("../images/illustrations/social.png")} alt="Social media illustration" width="386px" height="383px" useMap="#socialmap" />
             <map name="socialmap">
                 <area target="_blank" alt="Map link to Instagram profile" title="Instagram" href="https://www.instagram.com/veljko_jelenkovic" coords="125,270,25" shape="circle" />
@@ -18,10 +18,10 @@ function Contact() {
             </map>
             <div className="dot-links">
                 <a aria-label="Link to home section" aria-describedby="home" href="#home" className="dot"></a>
-                <a aria-label="Link to about section" aria-describedby="about" href="#about" className="dot"></a>
-                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects" className="dot"></a>
-                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech" className="dot"></a>
-                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact" className="dot selected"></a>
+                <a aria-label="Link to about section" aria-describedby="about" href="#about-section" className="dot"></a>
+                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects-section" className="dot"></a>
+                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech-section" className="dot"></a>
+                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact-section" className="dot selected"></a>
             </div>
             <p>&copy;Veljko Jelenković 2022. All rights reserved.</p>
         </section>

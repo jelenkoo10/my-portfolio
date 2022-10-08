@@ -2,8 +2,8 @@ import React from "react"
 
 function Technologies() {
     return (
-        <section className="technologies" id="tech">
-            <h1>Tech Stack</h1>
+        <section className="technologies" id="tech-section" aria-labelledby="tech">
+            <h1 id="tech">Tech Stack</h1>
             <div className="icons-grid">
                 <div className="tech-icon">
                     <div>
@@ -68,10 +68,10 @@ function Technologies() {
             </div>
             <div className="dot-links">
                 <a aria-label="Link to home section" aria-describedby="home" href="#home" className="dot"></a>
-                <a aria-label="Link to about section" aria-describedby="about" href="#about" className="dot"></a>
-                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects" className="dot"></a>
-                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech" className="dot selected"></a>
-                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact" className="dot"></a>
+                <a aria-label="Link to about section" aria-describedby="about" href="#about-section" className="dot"></a>
+                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects-section" className="dot"></a>
+                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech-section" className="dot selected"></a>
+                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact-section" className="dot"></a>
             </div>
         </section>
     )

@@ -5,8 +5,8 @@ import UserSvg from "../images/illustrations/user.svg"
 
 function AboutMe() {
     return (
-        <section className="about-me" id="about">
-            <h1>About me</h1>
+        <section className="about-me" id="about-section" aria-labelledby="about">
+            <h1 id="about">About me</h1>
             <div className="info-cards">
                 <div className="info-card">
                     <div>
@@ -29,10 +29,10 @@ function AboutMe() {
             </div>
             <div className="dot-links">
                 <a aria-label="Link to home section" aria-describedby="home" href="#home" className="dot"></a>
-                <a aria-label="Link to about section" aria-describedby="about" href="#about" className="dot selected"></a>
-                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects" className="dot"></a>
-                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech" className="dot"></a>
-                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact" className="dot"></a>
+                <a aria-label="Link to about section" aria-describedby="about" href="#about-section" className="dot selected"></a>
+                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects-section" className="dot"></a>
+                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech-section" className="dot"></a>
+                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact-section" className="dot"></a>
             </div>
         </section>
     )
