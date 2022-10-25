@@ -123,7 +123,7 @@ export default [
         id: 16,
         title: "Quizzical",
         image_path: "/quizzical.jpg",
-        description: "Test your knowledge in 20 different categories with this awesome Quizzical app. You get five questions every time, multiple choice or true/false answers.",
+        description: "Test your knowledge in 25 different categories with this awesome Quizzical app. You get five questions every time, multiple choice or true/false answers.",
         link: "https://jelenkoo10.github.io/quizzical/",
         tags: ["react", "api", "interactive"]
     }
