@@ -118,5 +118,13 @@ export default [
         description: "Expenses chart card with some data, for example total expenses, and expenses day by day. The exact amount can be seen by hovering the bars.",
         link: "https://jelenkoo10.github.io/expenses_chart_component/",
         tags: ["ui"]
+    },
+    {
+        id: 16,
+        title: "Quizzical",
+        image_path: "/quizzical.jpg",
+        description: "Test your knowledge in 20 different categories with this awesome Quizzical app. You get five questions every time, multiple choice or true/false answers.",
+        link: "https://jelenkoo10.github.io/quizzical/",
+        tags: ["react", "api", "interactive"]
     }
 ]
