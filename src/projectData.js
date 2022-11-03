@@ -126,5 +126,21 @@ export default [
         description: "Test your knowledge in 25 different categories with this awesome Quizzical app. You get five questions every time, multiple choice or true/false answers.",
         link: "https://jelenkoo10.github.io/quizzical/",
         tags: ["react", "api", "interactive"]
+    },
+    {
+        id: 17,
+        title: "Abstract Clone",
+        image_path: "/abstract.jpg",
+        description: "Clone of a real Abstract webpage, built as a challenge on Frontend Practice.",
+        link: "https://jelenkoo10.github.io/abstract_clone/",
+        tags: ["clone"]
+    },
+    {
+        id: 18,
+        title: "Pulse Clone",
+        image_path: "/pulse.jpg",
+        description: "Clone of a real Pulse webpage, built as a challenge on Frontend Practice.",
+        link: "https://jelenkoo10.github.io/pulse_clone/",
+        tags: ["clone"]
     }
 ]

@@ -66,6 +66,7 @@ function Projects() {
                 <option value="react">React</option>
                 <option value="api">API</option>
                 <option value="ui">UI/UX</option>
+                <option value="clone">Cloned pages</option>
                 <option value="interactive">Interactive</option>
             </select>
             {toggleWidth == "below 1000" ? <div className="project-display">
