@@ -131,7 +131,7 @@ export default [
         id: 17,
         title: "Abstract Clone",
         image_path: "/abstract.jpg",
-        description: "Clone of a real Abstract webpage, built as a challenge on Frontend Practice.",
+        description: "Clone of a real Abstract webpage, built as a challenge on Frontend Practice. (There is a 'Deceptive site ahead' error when trying to access from Chrome)",
         link: "https://jelenkoo10.github.io/abstract_clone/",
         tags: ["clone"]
     },
