@@ -19,6 +19,12 @@ function Technologies() {
                 </div>
                 <div className="tech-icon">
                     <div>
+                        <img src={require("../images/technologies/sass.png")} alt="CSS Icon" />
+                    </div>
+                    <h2>SCSS</h2>
+                </div>
+                <div className="tech-icon">
+                    <div>
                         <img src={require("../images/technologies/js.png")} alt="JavaScript Icon" />
                     </div>
                     <h2>JavaScript</h2>
@@ -40,6 +46,12 @@ function Technologies() {
                         <img src={require("../images/technologies/php.png")} alt="PHP Icon" />
                     </div>
                     <h2>PHP</h2>
+                </div>
+                <div className="tech-icon">
+                    <div>
+                        <img src={require("../images/technologies/laravel.png")} alt="PHP Icon" />
+                    </div>
+                    <h2>Laravel</h2>
                 </div>
                 <div className="tech-icon">
                     <div>
@@ -70,6 +82,7 @@ function Technologies() {
                 <a aria-label="Link to home section" aria-describedby="home" href="#home" className="dot"></a>
                 <a aria-label="Link to about section" aria-describedby="about" href="#about-section" className="dot"></a>
                 <a aria-label="Link to projects section" aria-describedby="projects" href="#projects-section" className="dot"></a>
+                <a aria-label="Link to group projects section" aria-describedby="group-projects" href="#group-projects-section" className="dot"></a>
                 <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech-section" className="dot selected"></a>
                 <a aria-label="Link to contact section" aria-describedby="contact" href="#contact-section" className="dot"></a>
             </div>

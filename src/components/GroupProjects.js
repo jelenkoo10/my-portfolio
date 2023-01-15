@@ -1,17 +1,16 @@
 import React from "react"
 import ProjectCard from "./ProjectCard"
-import ProjectsData from "../projectData"
+import GroupProjectsData from "../groupProjectData"
 import ProjectGrid from "./ProjectGrid"
 
-function Projects() {
-    const [projects, setProjects] = React.useState(ProjectsData)
+function GroupProjects() {
+    const [projects, setProjects] = React.useState(GroupProjectsData)
     const [projectNum, setProjectNum] = React.useState(Math.floor(Math.random() * projects.length))
     const [togglePhoto, setTogglePhoto] = React.useState(false)
     const [toggleWidth, setToggleWidth] = React.useState(window.screen.width < 1000 ? "below 1000" : "above 1000")
 
     function changeProject(direction) {
         setTogglePhoto(true)
-        selectProjects(document.getElementById('tags').options[document.getElementById('tags').selectedIndex].value)
         if (direction == "right") { 
             if (projectNum < projects.length - 1) {
                 setProjectNum(prevNum => prevNum + 1)
@@ -28,25 +27,6 @@ function Projects() {
         }
     }
 
-    function selectProjects(tag) {
-        if (tag != "none") {
-            let taggedProjects = ProjectsData.filter(project => project.tags.includes(tag))
-            setProjects(taggedProjects)
-        } else {
-            setProjects(ProjectsData)
-        }
-    }
-
-    function saveTag() {
-        let select = document.getElementById('tags');
-        let value = select.options[select.selectedIndex].value;
-        let taggedProjects = ProjectsData.filter(project => project.tags.includes(value))
-        if (projectNum >= taggedProjects.length) {
-            setProjectNum(0)
-        }
-        selectProjects(value)
-    }
-
     window.addEventListener("resize", function() {
         if (window.screen.width > 1000) {
             setToggleWidth("above 1000")
@@ -58,17 +38,8 @@ function Projects() {
 
 
     return (
-        <section className="projects" id="projects-section" aria-labelledby="projects">
-            <h1 id="projects">My projects</h1>
-            <label htmlFor="tags">Choose a project tag: </label>
-            <select name="tags" id="tags" defaultValue={"none"} onChange={saveTag}>
-                <option value="none">None</option>
-                <option value="react">React</option>
-                <option value="api">API</option>
-                <option value="ui">UI/UX</option>
-                <option value="clone">Cloned pages</option>
-                <option value="interactive">Interactive</option>
-            </select>
+        <section className="projects" id="group-projects-section" aria-labelledby="group-projects">
+            <h1 id="group-projects">Group projects I worked on</h1>
             {toggleWidth == "below 1000" ? <div className="project-display">
                 <div className="slider" onClick={() => changeProject("left")}>{"<"}</div>
                 <ProjectCard key={projects[projectNum].id} project={projects[projectNum]} img={projects[projectNum].image_path} toggle={togglePhoto} />
@@ -77,8 +48,8 @@ function Projects() {
             <div className="dot-links">
                 <a aria-label="Link to home section" aria-describedby="home" href="#home" className="dot"></a>
                 <a aria-label="Link to about section" aria-describedby="about" href="#about-section" className="dot"></a>
-                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects-section" className="dot selected"></a>
-                <a aria-label="Link to group projects section" aria-describedby="group-projects" href="#group-projects-section" className="dot"></a>
+                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects-section" className="dot"></a>
+                <a aria-label="Link to group projects section" aria-describedby="group-projects" href="#group-projects-section" className="dot selected"></a>
                 <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech-section" className="dot"></a>
                 <a aria-label="Link to contact section" aria-describedby="contact" href="#contact-section" className="dot"></a>
             </div>
@@ -86,4 +57,4 @@ function Projects() {
     )
 }
 
-export default Projects
+export default GroupProjects
