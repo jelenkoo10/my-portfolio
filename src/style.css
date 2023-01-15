@@ -599,3 +599,24 @@ label, select {
         width: 300px;
     }
 }
+
+@media screen and (min-width: 1650px) {
+    .info-card:not(:last-child)::after {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    :root {
+        font-size: 1.25rem;
+    }
+
+    .about-me {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .info-card:not(:last-child)::after {
+        width: 500px;
+    }
+}
