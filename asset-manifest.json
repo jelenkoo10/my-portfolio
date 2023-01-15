@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3291a8c4.css",
-    "main.js": "/my-portfolio/static/js/main.eacacd17.js",
+    "main.css": "/my-portfolio/static/css/main.37ed5ab4.css",
+    "main.js": "/my-portfolio/static/js/main.6c7bfe21.js",
     "static/media/flags.jpg": "/my-portfolio/static/media/flags.cc7ad295c9cb09f4ac66.jpg",
     "static/media/pulse.jpg": "/my-portfolio/static/media/pulse.a7328e58f7b2580777d3.jpg",
     "static/media/digital-card.jpg": "/my-portfolio/static/media/digital-card.a5726156670a72ea2dbe.jpg",
@@ -21,9 +21,11 @@
     "static/media/countries.jpg": "/my-portfolio/static/media/countries.56860ccc0f9fa0c70361.jpg",
     "static/media/colors.jpg": "/my-portfolio/static/media/colors.9c3eb73cc8efa658b58b.jpg",
     "static/media/scoreboard.jpg": "/my-portfolio/static/media/scoreboard.c46215ef553536291a0a.jpg",
+    "static/media/used-cars.jpg": "/my-portfolio/static/media/used-cars.6c19cf9aef3f4fcbecf8.jpg",
     "static/media/welcome.png": "/my-portfolio/static/media/welcome.1db573bbe26a8ff20e18.png",
     "static/media/social.png": "/my-portfolio/static/media/social.1c9fe3122233c03029bb.png",
     "static/media/hello.svg": "/my-portfolio/static/media/hello.26d427f05598b51055bb4113f7621a08.svg",
+    "static/media/coming-soon.jpg": "/my-portfolio/static/media/coming-soon.ccb343cce1dfdbefeebc.jpg",
     "static/media/todo.svg": "/my-portfolio/static/media/todo.7ce7576e063ab821ef3c480303ba43fd.svg",
     "static/media/growth.svg": "/my-portfolio/static/media/growth.0d3c566dfe7409d837d3e5a44b93ab6b.svg",
     "static/media/css.svg": "/my-portfolio/static/media/css.13101ff62e54574d74de2871815ee407.svg",
@@ -33,11 +35,11 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/icon-close.svg": "/my-portfolio/static/media/icon-close.85e5419b1253523d2e86.svg",
     "static/media/icon-hamburger.svg": "/my-portfolio/static/media/icon-hamburger.f5fd2a2d47682d693633.svg",
-    "main.3291a8c4.css.map": "/my-portfolio/static/css/main.3291a8c4.css.map",
-    "main.eacacd17.js.map": "/my-portfolio/static/js/main.eacacd17.js.map"
+    "main.37ed5ab4.css.map": "/my-portfolio/static/css/main.37ed5ab4.css.map",
+    "main.6c7bfe21.js.map": "/my-portfolio/static/js/main.6c7bfe21.js.map"
   },
   "entrypoints": [
-    "static/css/main.3291a8c4.css",
-    "static/js/main.eacacd17.js"
+    "static/css/main.37ed5ab4.css",
+    "static/js/main.6c7bfe21.js"
   ]
 }
