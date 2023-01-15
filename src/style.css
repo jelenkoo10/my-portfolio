@@ -114,6 +114,11 @@ a {
     border-radius: 1rem;
 }
 
+.header-btn:hover {
+    cursor: pointer;
+    background-color: #6a60fa;
+}
+
 /* Navigation menu */
 .hamburger {
     width: 25px;
@@ -611,6 +616,14 @@ label, select {
         font-size: 1.25rem;
     }
 
+    .header-illustration h1 {
+        margin-right: 4rem;
+    }
+
+    .nav {
+        justify-content: space-around;
+    }
+
     .about-me {
         width: 80%;
         margin: 0 auto;
@@ -618,5 +631,10 @@ label, select {
 
     .info-card:not(:last-child)::after {
         width: 500px;
+    }
+
+    .welcome {
+        width: 130px;
+        height: 130px;
     }
 }
