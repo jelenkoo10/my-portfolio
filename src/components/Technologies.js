@@ -1,145 +1,29 @@
 import React from "react";
+import TechnologyCard from "./TechnologyCard";
 
 function Technologies() {
   return (
     <section className="technologies" id="tech-section" aria-labelledby="tech">
       <h1 id="tech">Tech Stack</h1>
       <div className="icons-grid">
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/html-5.png")}
-              alt="HTML Icon"
-            />
-          </div>
-          <h2>HTML</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/css-3.png")}
-              alt="CSS Icon"
-            />
-          </div>
-          <h2>CSS</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/sass.png")}
-              alt="CSS Icon"
-            />
-          </div>
-          <h2>SCSS</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/tailwind.png")}
-              alt="TailwindCSS Icon"
-            />
-          </div>
-          <h2>TailwindCSS</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/js.png")}
-              alt="JavaScript Icon"
-            />
-          </div>
-          <h2>JavaScript</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/atom.png")}
-              alt="React Icon"
-            />
-          </div>
-          <h2>React</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/mongodb.png")}
-              alt="MongoDB Icon"
-            />
-          </div>
-          <h2>MongoDB</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/nodejs.png")}
-              alt="Node.js Icon"
-            />
-          </div>
-          <h2>Node.js</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/expressjs.png")}
-              alt="Express.js Icon"
-            />
-          </div>
-          <h2>Express.js</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/git.png")}
-              alt="Git Icon"
-            />
-          </div>
-          <h2>Git</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/php.png")}
-              alt="PHP Icon"
-            />
-          </div>
-          <h2>PHP</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/laravel.png")}
-              alt="PHP Icon"
-            />
-          </div>
-          <h2>Laravel</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/api.png")}
-              alt="API Icon"
-            />
-          </div>
-          <h2>APIs</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/bootstrap.png")}
-              alt="Bootstrap Icon"
-            />
-          </div>
-          <h2>Bootstrap</h2>
-        </div>
-        <div className="tech-icon">
-          <div>
-            <img
-              src={require("../images/technologies/gsap.png")}
-              alt="GSAP Icon"
-            />
-          </div>
-          <h2>GSAP</h2>
-        </div>
+        <TechnologyCard image="html-5.png" name="HTML" />
+        <TechnologyCard image="css-3.png" name="CSS" />
+        <TechnologyCard image="sass.png" name="SCSS" />
+        <TechnologyCard image="tailwind.png" name="TailwindCSS" />
+        <TechnologyCard image="js.png" name="JavaScript" />
+        <TechnologyCard image="ts.png" name="TypeScript" />
+        <TechnologyCard image="atom.png" name="React" />
+        <TechnologyCard image="mongodb.png" name="MongoDB" />
+        <TechnologyCard image="nodejs.png" name="Node.js" />
+        <TechnologyCard image="expressjs.png" name="Express.js" />
+        <TechnologyCard image="git.png" name="Git" />
+        <TechnologyCard image="postman.png" name="Postman" />
+        <TechnologyCard image="php.png" name="PHP" />
+        <TechnologyCard image="laravel.png" name="Laravel" />
+        <TechnologyCard image="mysql.png" name="MySQL" />
+        <TechnologyCard image="api.png" name="APIs" />
+        <TechnologyCard image="bootstrap.png" name="Bootstrap" />
+        <TechnologyCard image="gsap.png" name="GSAP" />
       </div>
       <div className="dot-links">
         <a

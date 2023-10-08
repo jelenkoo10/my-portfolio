@@ -13,9 +13,9 @@ function AboutMe() {
             <img src={UserSvg} alt="" width="50px" height="50px" />
           </div>
           <p>
-            Veljko is 22 years old and is currently at his final year of
-            software engineering studies at the Faculty of Engineering Sciences.
-            He also finished{" "}
+            Veljko is 22 years old and has recently acquired Bachelor's Degree
+            in software engineering studies at the Faculty of Engineering
+            Sciences. He also finished{" "}
             <a href="https://scrimba.com/learn/frontend" target="_blank">
               Frontend Developer Career Path
             </a>{" "}
@@ -30,7 +30,7 @@ function AboutMe() {
             >
               Frontend Mentor
             </a>
-            , and also some bigger and serious projects from college.
+            , and also some bigger and more serious projects from college.
           </p>
         </div>
         <div className="info-card">
@@ -42,8 +42,7 @@ function AboutMe() {
             as he already has a lot of knowledge with HTML5, CSS3, JavaScript,
             has experience with React and MERN stack in general, and also has
             knowledge of many other technologies. Good UI design is a must with
-            him. He is about to graduate from college in the upcoming months. He
-            has established his profiles on{" "}
+            him. He has established his profiles on{" "}
             <a href="https://github.com/jelenkoo10" target="_blank">
               Github
             </a>{" "}
