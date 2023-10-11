@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.385e4981.css",
-    "main.js": "/my-portfolio/static/js/main.a19223b6.js",
+    "main.css": "/my-portfolio/static/css/main.52a039a6.css",
+    "main.js": "/my-portfolio/static/js/main.e982afce.js",
+    "static/media/travel_agency.jpg": "/my-portfolio/static/media/travel_agency.fd320c554a67f231ec89.jpg",
+    "static/media/library.jpg": "/my-portfolio/static/media/library.0eee59f5ab8b1aa078d8.jpg",
     "static/media/flags.jpg": "/my-portfolio/static/media/flags.cc7ad295c9cb09f4ac66.jpg",
     "static/media/pulse.jpg": "/my-portfolio/static/media/pulse.a7328e58f7b2580777d3.jpg",
+    "static/media/rezervator.jpg": "/my-portfolio/static/media/rezervator.5dbe9eb7129bb4221227.jpg",
     "static/media/digital-card.jpg": "/my-portfolio/static/media/digital-card.a5726156670a72ea2dbe.jpg",
     "static/media/quizzical.jpg": "/my-portfolio/static/media/quizzical.7cd04e60a97c68858152.jpg",
     "static/media/ipaddress.JPG": "/my-portfolio/static/media/ipaddress.d35a5d292fb8ece0bff3.JPG",
@@ -22,10 +25,13 @@
     "static/media/colors.jpg": "/my-portfolio/static/media/colors.9c3eb73cc8efa658b58b.jpg",
     "static/media/scoreboard.jpg": "/my-portfolio/static/media/scoreboard.c46215ef553536291a0a.jpg",
     "static/media/used-cars.jpg": "/my-portfolio/static/media/used-cars.6c19cf9aef3f4fcbecf8.jpg",
+    "static/media/mysql.png": "/my-portfolio/static/media/mysql.7d8d571e5629923eaf74.png",
     "static/media/welcome.png": "/my-portfolio/static/media/welcome.1db573bbe26a8ff20e18.png",
     "static/media/social.png": "/my-portfolio/static/media/social.1c9fe3122233c03029bb.png",
+    "static/media/postman.png": "/my-portfolio/static/media/postman.2fb2d4164a7e6eaf6f65.png",
     "static/media/tailwind.png": "/my-portfolio/static/media/tailwind.39138a421122620729a5.png",
     "static/media/hello.svg": "/my-portfolio/static/media/hello.26d427f05598b51055bb4113f7621a08.svg",
+    "static/media/ts.png": "/my-portfolio/static/media/ts.af108db04a54d784da9b.png",
     "static/media/coming-soon.jpg": "/my-portfolio/static/media/coming-soon.ccb343cce1dfdbefeebc.jpg",
     "static/media/todo.svg": "/my-portfolio/static/media/todo.7ce7576e063ab821ef3c480303ba43fd.svg",
     "static/media/growth.svg": "/my-portfolio/static/media/growth.0d3c566dfe7409d837d3e5a44b93ab6b.svg",
@@ -36,11 +42,11 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/icon-close.svg": "/my-portfolio/static/media/icon-close.85e5419b1253523d2e86.svg",
     "static/media/icon-hamburger.svg": "/my-portfolio/static/media/icon-hamburger.f5fd2a2d47682d693633.svg",
-    "main.385e4981.css.map": "/my-portfolio/static/css/main.385e4981.css.map",
-    "main.a19223b6.js.map": "/my-portfolio/static/js/main.a19223b6.js.map"
+    "main.52a039a6.css.map": "/my-portfolio/static/css/main.52a039a6.css.map",
+    "main.e982afce.js.map": "/my-portfolio/static/js/main.e982afce.js.map"
   },
   "entrypoints": [
-    "static/css/main.385e4981.css",
-    "static/js/main.a19223b6.js"
+    "static/css/main.52a039a6.css",
+    "static/js/main.e982afce.js"
   ]
 }
