@@ -45,14 +45,6 @@ function GroupProjects() {
                 <ProjectCard key={projects[projectNum].id} project={projects[projectNum]} img={projects[projectNum].image_path} toggle={togglePhoto} />
                 <div className="slider" onClick={() => changeProject("right")}>{">"}</div>
             </div> : <ProjectGrid projects={projects} />}
-            <div className="dot-links">
-                <a aria-label="Link to home section" aria-describedby="home" href="#home" className="dot"></a>
-                <a aria-label="Link to about section" aria-describedby="about" href="#about-section" className="dot"></a>
-                <a aria-label="Link to projects section" aria-describedby="projects" href="#projects-section" className="dot"></a>
-                <a aria-label="Link to group projects section" aria-describedby="group-projects" href="#group-projects-section" className="dot selected"></a>
-                <a aria-label="Link to technologies section" aria-describedby="tech" href="#tech-section" className="dot"></a>
-                <a aria-label="Link to contact section" aria-describedby="contact" href="#contact-section" className="dot"></a>
-            </div>
         </section>
     )
 }
