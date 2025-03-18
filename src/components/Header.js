@@ -28,7 +28,7 @@ function Header() {
         </nav>
       </section>
 
-      <section className="flex flex-col gap-8 p-6 mb-8 lg:flex-row lg:items-center lg:w-[800px] lg:gap-12 lg:mx-auto">
+      <section className="flex flex-col gap-8 p-6 pb-0 lg:pb-6 lg:mb-8 lg:flex-row lg:items-center lg:w-[800px] lg:gap-12 lg:mx-auto">
         <div className="text-center lg:order-2 lg:text-left">
           <h1 className="text-2xl font-bold mb-2">
             Hello world! My name is Veljko.

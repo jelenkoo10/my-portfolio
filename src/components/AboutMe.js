@@ -1,71 +1,68 @@
 import React from "react";
-import TodoSvg from "../images/illustrations/todo.svg";
-import GrowthSvg from "../images/illustrations/growth.svg";
-import UserSvg from "../images/illustrations/user.svg";
+import ListSvg from "../images/icons/list.svg";
+import ChartSvg from "../images/icons/chart.svg";
+import UserSvg from "../images/icons/user.svg";
 
 function AboutMe() {
   return (
-    <section className="about-me" id="about-section" aria-labelledby="about">
-      <h1 id="about">About me</h1>
-      <div className="info-cards">
-        <div className="info-card">
-          <div>
-            <img src={UserSvg} alt="" width="50px" height="50px" />
+    <section
+      className="bg-[var(--base-color)] px-5 py-10 lg:py-16"
+      id="about-section"
+      aria-labelledby="about"
+    >
+      <div className="flex flex-col slg:flex-row slg:items-stretch slg:gap-8 slg:px-5 lg:gap-16 items-center gap-16 pt-6 max-w-[1200px] mx-auto">
+        <div className="info-card bg-white p-6 pt-8 relative rounded-xl max-w-[400px]">
+          <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex place-items-center">
+            <img
+              src={UserSvg}
+              alt="User Icon"
+              className="w-full h-full p-2 bg-white rounded-full"
+            />
           </div>
           <p>
-            Veljko is 22 years old and has recently acquired Bachelor's Degree
-            in software engineering studies at the Faculty of Engineering
-            Sciences. He also finished{" "}
-            <a href="https://scrimba.com/learn/frontend" target="_blank">
-              Frontend Developer Career Path
-            </a>{" "}
-            and{" "}
-            <a href="https://scrimba.com/learn/designbootcamp" target="_blank">
-              UI Design Bootcamp
-            </a>{" "}
-            on Scrimba. He has tons of small projects, mostly from Scrimba and{" "}
-            <a
-              href="https://www.frontendmentor.io/profile/jelenkoo10"
-              target="_blank"
-            >
-              Frontend Mentor
-            </a>
-            , and also some bigger and more serious projects from college.
+            I hold a <strong>Bachelor's degree</strong> from the Faculty of
+            Engineering Sciences in Kragujevac, where I built a solid foundation
+            in computer science and software engineering. Currently, I am
+            pursuing a <strong>Master’s degree</strong> in Information
+            Technology at the University of Kragujevac, further expanding my
+            knowledge. I have a strong passion for continuous learning, whether
+            through coding, following industry trends, or exploring new
+            technologies.
           </p>
         </div>
-        <div className="info-card">
-          <div>
-            <img src={GrowthSvg} alt="" width="50px" height="50px" />
+        <div className="info-card bg-white p-6 pt-8 relative rounded-xl max-w-[400px]">
+          <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex place-items-center">
+            <img
+              src={ChartSvg}
+              alt="Chart Icon"
+              className="w-full h-full p-2 bg-white rounded-full"
+            />
           </div>
           <p>
-            Veljko is looking forward to become a passionate frontend developer,
-            as he already has a lot of knowledge with HTML5, CSS3, JavaScript,
-            has experience with React and MERN stack in general, and also has
-            knowledge of many other technologies. Good UI design is a must with
-            him. He has established his profiles on{" "}
-            <a href="https://github.com/jelenkoo10" target="_blank">
-              Github
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://www.linkedin.com/in/veljko-jelenkovi%C4%87-182981250/"
-              target="_blank"
-            >
-              LinkedIn
-            </a>
-            .
+            My main focus is frontend development, where I work with
+            technologies like HTML, CSS, JavaScript, and React to build
+            responsive and user-friendly web applications. I have experience
+            optimizing performance, ensuring accessibility, and creating clean,
+            maintainable code. UI/UX principles play a big role in my work, and
+            I strive to create seamless digital experiences through thoughtful
+            design and development.
           </p>
         </div>
-        <div className="info-card">
-          <div>
-            <img src={TodoSvg} alt="" width="50px" height="50px" />
+        <div className="info-card bg-white p-6 pt-8 relative rounded-xl max-w-[400px]">
+          <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex place-items-center">
+            <img
+              src={ListSvg}
+              alt="List Icon"
+              className="w-full h-full p-2 bg-white rounded-full"
+            />
           </div>
           <p>
-            Skills that he likes to highlight most are his ability to plan and
-            organize everything before putting any effort, and his ability to
-            solve different problems with ease. His work ethic and dedication
-            are truly great, and he is always looking forward to learn something
-            new on his frontend journey every single day.
+            Beyond technical skills, I thrive in collaborative environments and
+            enjoy problem-solving through structured and creative approaches. I
+            am highly organized, adaptable, and always eager to refine my skills
+            and learn from others. Whether working independently or as part of a
+            team, I am committed to delivering high-quality solutions and
+            growing as a developer.
           </p>
         </div>
       </div>
