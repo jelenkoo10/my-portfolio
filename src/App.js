@@ -1,22 +1,20 @@
-import React from "react"
-import AboutMe from "./components/AboutMe"
-import Header from "./components/Header"
-import Technologies from "./components/Technologies"
-import Projects from "./components/Projects"
-import GroupProjects from "./components/GroupProjects"
-import Contact from "./components/Contact"
+import React from "react";
+import AboutMe from "./components/AboutMe";
+import Header from "./components/Header";
+import Technologies from "./components/Technologies";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
-    return (
-        <main>
-            <Header />
-            <AboutMe />
-            <Projects />
-            <GroupProjects />
-            <Technologies />
-            <Contact />
-        </main>
-    )
+  return (
+    <main>
+      <Header />
+      <AboutMe />
+      <Projects />
+      <Technologies />
+      <Contact />
+    </main>
+  );
 }
 
-export default App
+export default App;
