@@ -1,14 +1,15 @@
 import React from "react";
 
 function Contact() {
-  function copyAddress() {
-    navigator.clipboard.writeText("veljkojelenkovic00@gmail.com");
-    alert("Copied Veljko's email address: veljkojelenkovic00@gmail.com");
-  }
-
   return (
-    <section className="contact" id="contact-section" aria-labelledby="contact">
-      <h1 id="contact">Contact me</h1>
+    <section
+      className="max-w-[1200px] p-5 pb-0 mx-auto"
+      id="contact-section"
+      aria-labelledby="contact"
+    >
+      <h1 id="contact" className="text-2xl lg:text-4xl font-extrabold mb-8">
+        Contact me
+      </h1>
       <img
         src={require("../images/illustrations/social.png")}
         alt="Social media illustration"
@@ -43,14 +44,13 @@ function Contact() {
         />
         <area
           target="_blank"
-          alt="Copying email address"
+          alt="Map link to mail sending"
           title="Email"
-          onClick={copyAddress}
+          href="mailto:veljkojelenkovic00@gmail.com"
           coords="114,100,27"
           shape="circle"
         />
       </map>
-      <p>&copy;Veljko Jelenković 2023. All rights reserved.</p>
     </section>
   );
 }
