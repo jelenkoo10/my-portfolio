@@ -46,15 +46,6 @@ export default [
   },
   {
     id: 6,
-    title: "Travel Journal",
-    image_path: "/travel.jpg",
-    description:
-      "React made Travel Journal, which displays five most beautiful places I have visited, their location and description.",
-    link: "https://jelenkoo10.github.io/travel_journal/",
-    tags: ["react", "ui"],
-  },
-  {
-    id: 7,
     title: "Password Generator",
     image_path: "/passwords.jpg",
     description:
@@ -63,7 +54,7 @@ export default [
     tags: ["interactive"],
   },
   {
-    id: 8,
+    id: 7,
     title: "Color Scheme Generator",
     image_path: "/colors.jpg",
     description:
@@ -72,7 +63,7 @@ export default [
     tags: ["api"],
   },
   {
-    id: 9,
+    id: 8,
     title: "Basketball Scoreboard",
     image_path: "/scoreboard.jpg",
     description:
@@ -81,7 +72,7 @@ export default [
     tags: ["interactive"],
   },
   {
-    id: 10,
+    id: 9,
     title: "Calculator App",
     image_path: "/calc.jpg",
     description:
@@ -90,7 +81,7 @@ export default [
     tags: ["interactive"],
   },
   {
-    id: 11,
+    id: 10,
     title: "IP Address Tracker",
     image_path: "/ipaddress.jpg",
     description:
@@ -99,7 +90,7 @@ export default [
     tags: ["api", "ui"],
   },
   {
-    id: 12,
+    id: 11,
     title: "REST Countries API",
     image_path: "/countries.jpg",
     description:
@@ -108,7 +99,7 @@ export default [
     tags: ["api", "react"],
   },
   {
-    id: 13,
+    id: 12,
     title: "Unit Converter",
     image_path: "/unit converter.jpg",
     description:
@@ -117,7 +108,7 @@ export default [
     tags: [],
   },
   {
-    id: 14,
+    id: 13,
     title: "Expenses Chart Component",
     image_path: "/expenses.jpg",
     description:
@@ -126,7 +117,7 @@ export default [
     tags: ["ui"],
   },
   {
-    id: 15,
+    id: 14,
     title: "Quizzical",
     image_path: "/quizzical.jpg",
     description:
@@ -135,7 +126,7 @@ export default [
     tags: ["react", "api", "interactive"],
   },
   {
-    id: 16,
+    id: 15,
     title: "Used Cars Application",
     image_path: "/used-cars.jpg",
     description:
@@ -144,7 +135,7 @@ export default [
     link: "https://github.com/Nobodybob1/Used-Cars",
   },
   {
-    id: 17,
+    id: 16,
     title: "Travel Agency",
     image_path: "/travel_agency.jpg",
     description:
@@ -153,7 +144,7 @@ export default [
     link: "https://github.com/jelenkoo10/travel_agency",
   },
   {
-    id: 18,
+    id: 17,
     title: "Library management system",
     image_path: "/library.jpg",
     description:
@@ -162,7 +153,7 @@ export default [
     link: "https://github.com/jelenkoo10/library_management_system",
   },
   {
-    id: 19,
+    id: 18,
     title: "Table Reserving App",
     image_path: "/rezervator.jpg",
     description:

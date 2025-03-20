@@ -1,81 +1,50 @@
-import React from "react"
-import ProjectCard from "./ProjectCard"
-import ProjectsData from "../projectData"
-import ProjectGrid from "./ProjectGrid"
+import React from "react";
+import ProjectCard from "./ProjectCard";
+import ProjectsData from "../projectData";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 function Projects() {
-    const [projects, setProjects] = React.useState(ProjectsData)
-    const [projectNum, setProjectNum] = React.useState(Math.floor(Math.random() * projects.length))
-    const [togglePhoto, setTogglePhoto] = React.useState(false)
-    const [toggleWidth, setToggleWidth] = React.useState(window.screen.width < 1000 ? "below 1000" : "above 1000")
+  const projects = ProjectsData;
 
-    function changeProject(direction) {
-        setTogglePhoto(true)
-        selectProjects(document.getElementById('tags').options[document.getElementById('tags').selectedIndex].value)
-        if (direction == "right") { 
-            if (projectNum < projects.length - 1) {
-                setProjectNum(prevNum => prevNum + 1)
-            } else {
-                setProjectNum(0)
-            }
-        }
-        if (direction == "left") {
-            if (projectNum > 0) {
-                setProjectNum(prevNum => prevNum - 1)
-            } else {
-                setProjectNum(projects.length - 1)
-            }
-        }
-    }
+  let projectsSplideHtml = projects.map((project) => (
+    <SplideSlide key={project.id}>
+      <ProjectCard project={project} img={project.image_path} />
+    </SplideSlide>
+  ));
 
-    function selectProjects(tag) {
-        if (tag != "none") {
-            let taggedProjects = ProjectsData.filter(project => project.tags.includes(tag))
-            setProjects(taggedProjects)
-        } else {
-            setProjects(ProjectsData)
-        }
-    }
+  let projectsHtml = projects.map((project) => (
+    <ProjectCard project={project} img={project.image_path} />
+  ));
 
-    function saveTag() {
-        let select = document.getElementById('tags');
-        let value = select.options[select.selectedIndex].value;
-        let taggedProjects = ProjectsData.filter(project => project.tags.includes(value))
-        if (projectNum >= taggedProjects.length) {
-            setProjectNum(0)
-        }
-        selectProjects(value)
-    }
-
-    window.addEventListener("resize", function() {
-        if (window.screen.width > 1000) {
-            setToggleWidth("above 1000")
-        }
-        if (window.screen.width < 1000) {
-            setToggleWidth("below 1000")
-        }
-    })
-
-
-    return (
-        <section className="projects" id="projects-section" aria-labelledby="projects">
-            <h1 id="projects">My projects</h1>
-            <label htmlFor="tags">Choose a project tag: </label>
-            <select name="tags" id="tags" defaultValue={"none"} onChange={saveTag}>
-                <option value="none">None</option>
-                <option value="react">React</option>
-                <option value="api">API</option>
-                <option value="ui">UI/UX</option>
-                <option value="clone">Cloned pages</option>
-                <option value="interactive">Interactive</option>
-            </select>
-            {toggleWidth == "below 1000" ? <div className="project-display">
-                <div className="slider" onClick={() => changeProject("left")}>{"<"}</div>
-                <ProjectCard key={projects[projectNum].id} project={projects[projectNum]} img={projects[projectNum].image_path} toggle={togglePhoto} />
-                <div className="slider" onClick={() => changeProject("right")}>{">"}</div>
-            </div> : <ProjectGrid projects={projects} />}
-        </section>
-    )
+  return (
+    <section
+      className="p-5 max-w-[1200px] my-12 xl:mx-auto"
+      id="projects-section"
+      aria-labelledby="projects"
+    >
+      <h1 id="tech" className="text-2xl lg:text-4xl font-extrabold mb-8">
+        Projects
+      </h1>
+      <div className="visible-until-xl">
+        <Splide
+          options={{
+            autoWidth: true,
+            perPage: 1,
+            gap: "1rem",
+            arrows: true,
+            pagination: false,
+            padding: 20,
+          }}
+          style={{ margin: "0 -20px" }}
+        >
+          {projectsSplideHtml}
+        </Splide>
+      </div>
+      <div className="visible-from-xl grid grid-cols-3 gap-x-16 gap-y-12">
+        {projectsHtml}
+      </div>
+    </section>
+  );
 }
 
-export default Projects
+export default Projects;
