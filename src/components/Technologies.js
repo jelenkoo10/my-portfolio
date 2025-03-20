@@ -5,7 +5,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 function Technologies() {
   return (
     <section
-      className="p-5 max-w-[1200px] xl:mx-auto"
+      className="p-5 max-w-[1200px] my-12 xl:mx-auto"
       id="tech-section"
       aria-labelledby="tech"
     >

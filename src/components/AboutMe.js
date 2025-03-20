@@ -10,7 +10,7 @@ function AboutMe() {
       id="about-section"
       aria-labelledby="about"
     >
-      <div className="flex flex-col slg:flex-row slg:items-stretch slg:gap-8 slg:px-5 lg:gap-16 items-center gap-16 pt-6 max-w-[1200px] mx-auto">
+      <div className="flex flex-col slg:flex-row slg:items-stretch slg:gap-8 lg:px-5 lg:grid lg:grid-cols-3 lg:gap-16 items-center gap-16 pt-6 max-w-[1200px] mx-auto">
         <div className="info-card bg-white p-6 pt-8 relative rounded-xl max-w-[400px]">
           <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex place-items-center">
             <img

@@ -15,6 +15,7 @@ function Contact() {
         alt="Social media illustration"
         width="386px"
         height="383px"
+        className="lg:mx-auto"
         useMap="#socialmap"
       />
       <map name="socialmap">
