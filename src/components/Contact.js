@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
@@ -10,7 +11,9 @@ function Contact() {
       <h1 id="contact" className="text-2xl lg:text-4xl font-extrabold mb-8">
         Contact me
       </h1>
-      <img
+      <motion.img
+        animate={{ y: [0, -5, 0] }}
+        transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
         src={require("../images/illustrations/social.png")}
         alt="Social media illustration"
         width="386px"
