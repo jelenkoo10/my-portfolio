@@ -8,12 +8,12 @@ function Projects() {
 
   let projectsSplideHtml = projects.map((project) => (
     <SplideSlide key={project.id}>
-      <ProjectCard project={project} img={project.image_path} />
+      <ProjectCard project={project} img={project.imagePath} />
     </SplideSlide>
   ));
 
   let projectsHtml = projects.map((project) => (
-    <ProjectCard project={project} img={project.image_path} />
+    <ProjectCard project={project} img={project.imagePath} />
   ));
 
   return (

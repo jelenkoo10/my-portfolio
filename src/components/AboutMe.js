@@ -12,12 +12,8 @@ function AboutMe() {
     >
       <div className="flex flex-col slg:flex-row slg:items-stretch slg:gap-8 lg:px-5 lg:grid lg:grid-cols-3 lg:gap-16 items-center gap-16 pt-6 max-w-[1200px] mx-auto">
         <div className="info-card bg-white p-6 pt-8 relative rounded-xl max-w-[400px]">
-          <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex place-items-center">
-            <img
-              src={UserSvg}
-              alt="User Icon"
-              className="w-full h-full p-2 bg-white rounded-full"
-            />
+          <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex items-center justify-center bg-white rounded-full">
+            <img src={UserSvg} alt="User Icon" className="w-7 h-7" />
           </div>
           <p>
             I hold a <strong>Bachelor's degree</strong> from the Faculty of
@@ -31,12 +27,8 @@ function AboutMe() {
           </p>
         </div>
         <div className="info-card bg-white p-6 pt-8 relative rounded-xl max-w-[400px]">
-          <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex place-items-center">
-            <img
-              src={ChartSvg}
-              alt="Chart Icon"
-              className="w-full h-full p-2 bg-white rounded-full"
-            />
+          <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex items-center justify-center bg-white rounded-full">
+            <img src={ChartSvg} alt="Chart Icon" className="w-7 h-7" />
           </div>
           <p>
             My main focus is frontend development, where I work with
@@ -49,13 +41,10 @@ function AboutMe() {
           </p>
         </div>
         <div className="info-card bg-white p-6 pt-8 relative rounded-xl max-w-[400px]">
-          <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex place-items-center">
-            <img
-              src={ListSvg}
-              alt="List Icon"
-              className="w-full h-full p-2 bg-white rounded-full"
-            />
+          <div className="absolute top-[-25px] left-[50%] translate-x-[-50%] w-12 h-12 flex items-center justify-center bg-white rounded-full">
+            <img src={ListSvg} alt="List Icon" className="w-7 h-7" />
           </div>
+
           <p>
             Beyond technical skills, I thrive in collaborative environments and
             enjoy problem-solving through structured and creative approaches. I
